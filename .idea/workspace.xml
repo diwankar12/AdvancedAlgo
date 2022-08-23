@@ -2,15 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dc86aacf-aff1-4568-8bab-2fd1af2a6536" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AdvancedAlgo.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Arrays/MergeSortedArrays.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DynamicProgramming/DD/LIS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DynamicProgramming/DpONStocks/BestTimeToBuyAndSellStockII.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DynamicProgramming/DpONStocks/BestTimeToBuyAndSellStockIII.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DynamicProgramming/DpONStocks/BestTimeToBuyAndSellStockIV.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DynamicProgramming/DpONStocks/BestTimeToBuyAndSellStockWithCooldown.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DynamicProgramming/DpONStocks/BuyAndSellStocks1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DynamicProgramming/DD/LIS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DynamicProgramming/LIS/LIS.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,11 +54,11 @@
   </component>
   <component name="RunManager" selected="Application.MergeSortedArrays">
     <configuration name="LIS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DynamicProgramming.DD.LIS" />
+      <option name="MAIN_CLASS_NAME" value="DynamicProgramming.LIS.LIS" />
       <module name="AdvancedAlgo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DynamicProgramming.DD.*" />
+          <option name="PATTERN" value="DynamicProgramming.LIS.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -106,22 +104,22 @@
       <screen x="1280" y="0" width="1920" height="1080" />
     </state>
     <state x="1840" y="205" key="#Project_Structure/0.0.1280.800/1280.0.1920.1080@1280.0.1920.1080" timestamp="1659390270106" />
-    <state width="1878" height="297" key="GridCell.Tab.0.bottom" timestamp="1659663747053">
+    <state width="1878" height="297" key="GridCell.Tab.0.bottom" timestamp="1660877192029">
       <screen x="1280" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="297" key="GridCell.Tab.0.bottom/0.0.1280.800/1280.0.1920.1080@1280.0.1920.1080" timestamp="1659663747053" />
-    <state width="1878" height="297" key="GridCell.Tab.0.center" timestamp="1659663747048">
+    <state width="1878" height="297" key="GridCell.Tab.0.bottom/0.0.1280.800/1280.0.1920.1080@1280.0.1920.1080" timestamp="1660877192029" />
+    <state width="1878" height="297" key="GridCell.Tab.0.center" timestamp="1660877192026">
       <screen x="1280" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="297" key="GridCell.Tab.0.center/0.0.1280.800/1280.0.1920.1080@1280.0.1920.1080" timestamp="1659663747048" />
-    <state width="1878" height="297" key="GridCell.Tab.0.left" timestamp="1659663747042">
+    <state width="1878" height="297" key="GridCell.Tab.0.center/0.0.1280.800/1280.0.1920.1080@1280.0.1920.1080" timestamp="1660877192026" />
+    <state width="1878" height="297" key="GridCell.Tab.0.left" timestamp="1660877192022">
       <screen x="1280" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="297" key="GridCell.Tab.0.left/0.0.1280.800/1280.0.1920.1080@1280.0.1920.1080" timestamp="1659663747042" />
-    <state width="1878" height="297" key="GridCell.Tab.0.right" timestamp="1659663747050">
+    <state width="1878" height="297" key="GridCell.Tab.0.left/0.0.1280.800/1280.0.1920.1080@1280.0.1920.1080" timestamp="1660877192022" />
+    <state width="1878" height="297" key="GridCell.Tab.0.right" timestamp="1660877192027">
       <screen x="1280" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="297" key="GridCell.Tab.0.right/0.0.1280.800/1280.0.1920.1080@1280.0.1920.1080" timestamp="1659663747050" />
+    <state width="1878" height="297" key="GridCell.Tab.0.right/0.0.1280.800/1280.0.1920.1080@1280.0.1920.1080" timestamp="1660877192027" />
     <state width="1878" height="366" key="GridCell.Tab.1.bottom" timestamp="1659660365324">
       <screen x="1280" y="0" width="1920" height="1080" />
     </state>
@@ -146,5 +144,9 @@
       <screen x="1280" y="0" width="1920" height="1080" />
     </state>
     <state x="1380" y="100" width="1720" height="880" key="dock-window-1/0.0.1280.800/1280.0.1920.1080@1280.0.1920.1080" timestamp="1659390225840" />
+    <state x="1669" y="237" key="new project wizard" timestamp="1660944382687">
+      <screen x="1280" y="0" width="1920" height="1080" />
+    </state>
+    <state x="1669" y="237" key="new project wizard/0.0.1280.800/1280.0.1920.1080@1280.0.1920.1080" timestamp="1660944382687" />
   </component>
 </project>
